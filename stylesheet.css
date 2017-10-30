@@ -1,0 +1,42 @@
+Header {
+  text-align: center;
+  background-image:url("thoughts.jpg");
+  background-size:cover;
+  color: brown;
+}
+a {
+  color: white;
+}
+h1 {
+  font-size: 40px;
+}
+img {
+  margin: 20px 0px 0px 0px;
+  border:7px solid black;
+  border-radius:10px;
+}
+ul {
+  padding: 10px;
+  background:black;
+
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+article {
+  max-width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+      }
+      li {
+        display:block;
+        padding:5px;
+    }
+  }
